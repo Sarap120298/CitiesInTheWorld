@@ -59,6 +59,39 @@ margin-top: 20%;
       backface-visibility: hidden;
       transform: translateZ(0) scale(1.0, 1.0);
     }
-
-
-      
+    .one{
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+    }
+    .two{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    .three{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    .four{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    .toeat{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 140px;
+      margin-right: 0px;
+      margin-top:100px;
+    }
+    h2{
+      font-size: small;
+      text-align: center;
+      margin-top: 20px;
+    }
+    h1{
+      text-align: center;
+      margin-top: 60px;
+    }
