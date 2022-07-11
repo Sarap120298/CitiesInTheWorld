@@ -2,3 +2,63 @@ body{
     margin: 50px;
     padding: 50px;
 }
+.categories{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-top: -57%;
+    margin-bottom: 20px;
+
+}
+.categories2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+}
+
+.leaderboard {
+margin-top: 20%;
+  margin-left: 140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 285px;
+  height: 420px;
+  background: linear-gradient(to bottom, #fafafb, #fafafb);
+  border-radius: 10px;
+  box-shadow: 0 7px 30px #fafafb(247, 246, 246, 0.3);
+}
+
+  h1 {
+    font-size: 18px;
+    color: #04070b;
+    padding: 12px 13px 18px;
+  }
+
+    svg {
+      width: 25px;
+      height: 26px;
+      display: flex;
+      top: 3px;
+      margin-right: 6px;
+    }
+
+  
+
+  ol {
+    counter-reset: leaderboard;
+  }
+
+    li {
+      position: relative;
+      z-index: 1;
+      font-size: 14px;
+      counter-increment: leaderboard;
+      padding: 18px 10px 18px 50px;
+      cursor: pointer;
+      backface-visibility: hidden;
+      transform: translateZ(0) scale(1.0, 1.0);
+    }
+
+
+      
